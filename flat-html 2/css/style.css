@@ -36,7 +36,8 @@ a {
   margin: 0 auto;
 }
 
-button.btn.btn-primary.dropdown-toggle, .dropdown-menu {
+/*REMOVED THIS BECAUSE WE REMOVED THE BUTTON AND ADDED A MAIN MENU BUTTON)
+/*button.btn.btn-primary.dropdown-toggle, .dropdown-menu {
     background-color: black;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     margin: 0 auto;
@@ -52,17 +53,28 @@ button.btn.btn-primary.dropdown-toggle, .dropdown-menu {
   text-align: center;
 }
 .dropdownhaus {
-  text-align:center;}
+  text-align:center;
+}*/
+
+header .homepageheader {
+  background: url('images/LAwater.jpeg');
+  position: relative;
+}
 
 header nav {
   float: center;
-  margin-top: 2px;
+  margin-top: 5px;
+  margin-left: 100px;
+  position: absolute;
+  font-size: 32px;
 }
+
 header nav ul li {
   margin: 0 30px 0 30px;
   display:inline-block;
   font-size: 24px;
 }
+
 header nav ul li a {
   color: black;
 }
@@ -87,8 +99,8 @@ header nav ul li a {
 }
 
 .map-section {
-width: 100%;
-margin-top: 5px;
+  width: 100%;
+  margin-top: 2px;
 }
 
 .map-teaser-image {
@@ -120,19 +132,15 @@ margin-top: 5px;
 
 #map {
   width: 100%;
-  height: 600px;
+  height: 580px;
       }
-
-#city-type {
-
-}
 
 /* Image Grid */
 
 .homepagegrid div[class^="col-"] {
     margin: 0 !important;
     padding: 0 !important;
-    border: solid black .5px;
+    border: solid whit se .5px;
 }
 
 .img-container {
@@ -151,14 +159,42 @@ margin-top: 5px;
 .img-container .img-footer {
     position: absolute;
     bottom: 0; left: 0;
-    padding: 0 10px;   
+    padding: 90px 10px; 
     width: 100%;
+    height: 100%;
     color: #fff;
-    background: rgba(0,0,0,0.7);   
-
+    background: rgba(0,0,0,0.5);  
+    text-align: center; 
 }
 
+.img-container .img-footer:hover {
+   background: rgba(0,0,0,0);  
+}
 
+/*Map Page */
+
+header .mappageheader {
+  background: ;
+  position: ;
+}
+
+.button {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    z-index: 1;
+    color: white;
+}
+
+.citymap {
+  width: 100%;
+  height: 680px;
+  background-color: #CCC;
+}
 
 /* Hacks and Overrides */
 
